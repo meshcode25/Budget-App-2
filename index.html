@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Budget app</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="budget-boxes">
+            <h1 class="head">Budget App</h1>
+            <div class="budget-group">
+                <form class="budget-form">
+                    <div> <label>Enter your budget</label> </div>
+                <div><input type="text" placeholder="input your budget here" class="input-budget" > </div>
+                <div><button type="submit"  class="budget-button">Submit Budget</button></div>
+                </form>
+            </div>
+            <div class="mycontainer"></div>
+            <div class="expense-group">
+            <form class="expense-form">
+                <div> <label>Enter expense type</label> </div>
+                <div ><input type="text" placeholder="Enter you expense type here" class="input-expense-type" autofocus></div>
+                <div class="expense"> <label>Enter expense value here</label> </div>
+                <div><input type="text" placeholder="input your expense here"  autofocus class="input-expense-value"> </div>
+                <div><button type="submit"  class="expense-button">Submit Expense</button></div>
+            </form> 
+            </div>
+        </div>
+           
+    <div class="flex">
+             
+    <div class="display-container">
+        <div class="budget-display">
+            <div><h3>Budget</h3></div>
+            <div>$ <span class="budget-amount"></span></div>
+        </div>  
+        <div class="expense-display">
+            <div><h3>Expense</h3></div>
+            <div>$ <span class="expense-amount"></span></div>
+        </div>  
+        <div class="balance-display">
+            <div><h3>Balance</h3></div>
+            <div>$ <span class="balance-amount"></span></div>
+        </div>   
+    </div>
+        <div class="table-list">
+            <table class="table">
+                <tr class="rowhead">
+                    <td>Expense title</td>
+                    <td>Expense value</td>
+                 </tr>
+            </table>
+        </div>
+    </div>
+        
+
+
+    </div>
+   <script src="./main.js"></script> 
+</body>
+</html>

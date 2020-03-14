@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+}
+.container{
+    background: lightgray;
+    width: 60%;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding:2rem;
+    margin: 1rem auto;
+}
+.head{
+    margin-top:-1rem;
+}
+input{
+    padding:0.5rem;
+    border-radius:7px;
+    display:block;
+
+}
+.budget-boxes{
+    padding:0.4rem ; 
+    
+
+}
+.budget-group{
+    padding:1rem;
+    border: 2px solid green;
+    border-radius: 4px;
+    margin-bottom:2rem;
+}
+.budget-group p{
+padding-left:0.5rem;
+}
+.expense-group p{
+    padding-left:3rem;
+}
+.budget-button{
+    padding:0.6rem;
+    background: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-top:1rem;
+}
+.expense-group{
+    padding:1rem;
+    border:2px solid red;
+    border-radius: 7px;
+    margin-top:1rem;
+}
+.expense{
+    padding-top:.7rem;
+    
+}
+.expense-group div{
+    margin-top: .3rem;
+}
+.budget-boxes div{
+    margin-top: .1rem;
+}
+.expense-button{
+    padding:0.4rem;
+    background: red;
+    color:white;
+    border-radius:7px;
+    margin-top:1rem;
+    font-size:20px;
+}
+.display-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:4rem auto;
+    font-weight: lighter;
+    align-self:flex-start;
+}
+.display-container div{
+    padding: 0.4rem 2rem;
+}
+.expense-display h3{
+color:red;
+}
+.balance-display h3{
+ color:blue;
+}
+.budget-display h3{
+    color: green;
+}
+.expense-list{
+    align-self:flex-end;
+    
+}
+.flex{
+    display: flex;
+    
+    flex-direction: column;
+}
+.table-list{
+    margin-top:-3rem;
+    padding-left:3rem;
+}
+table tr{
+    padding-top:-10rem;
+}
+table{
+    padding:0;
+    margin:0;
+}
+table td{
+    padding-left:3rem;
+}
+table th{
+    padding:0 2rem 0 1rem;
+}
+.rowhead{
+    font-size:20px;
+    color:purple;
+    margin:0;
+    padding:0;
+}
+.black{
+    color:black;
+    
+}
+.delete{
+    padding:0;
+    margin:0;
+    color:crimson
+}
+.edit{
+    padding-top:0.1rem;
+    padding-right:0.5rem;
+    margin:0;
+    color:green;
+}
+.alert{
+    color:white;
+    background: red;
+    border-radius: 10px;
+    padding:0.1rem;
+
+}
+.expensealert{
+    color:white;
+    background: red;
+    border-radius: 10px;
+    padding:0.01rem;
+    padding-left:0.4rem;
+}
+.none{
+    display:none;
+
+}
+.showitem{
+    display:block;
+
+}
+
+@media screen and (min-width:1000px){
+    .budget-display{
+        display:flex;
+        flex-direction:column;
+    }
+    
+}
